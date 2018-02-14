@@ -57,9 +57,9 @@
                 <div class="row">
                     <div class="col-sm-3 col-sm-offset-4">
                         <div class="contact-text">
-                            <h3>Contact</h3>
+                            <h3>Email</h3>
                             <address>
-                                E-mail: Chakravyuh@Sankalan.in<br>
+                                Chakravyuh@Sankalan.in<br>
                             </address>
                         </div>
                         <div class="contact-address">
@@ -106,7 +106,50 @@
 		<!-- Contact Section End -->
 
     
+           
 
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    
+       <ol>
+                                <li>Facebook login is required.</li>
+                                <li>Submit answer in textbox or do whatsoever you can do to go to the next level.</li>
+                                <li>Questions can be in any form pictorial, video, text or anything.</li>
+                                <li>For interaction with the organizers there would be organizer managed Facebook page.</li>
+                                <li>Only alphabets and numbers are allowed.
+                                    <br>a) No special characters like @, _, are allowed EXCEPT ".", however you can use whitespace between two words but answer without whitespace is also acceptable (for e.g. Hello world is same as helloworld , HeLloWorlD , HELLO WORLD).
+                                    <br>b) Acceptable date format is “1 Jan 2000” for an answer.
+                                </li>
+                                <li>Any attempt of hacking will lead to automatic disqualification.</li>
+                                <li>If admin realizes that any participant has used any kind of unfair means to clear any level then the admin is liable to block the user without any prior notice to anyone and admin will be unquestionable.</li>
+                                <li>Hint Scheme will be as follows:
+                                    <br>a) Hints will be available on the website itself to every participant privately as per their level when they are eligible for it.
+                                    <br>b) Any mail asking for answers or hints shall not be entertained.
+                                    <br>c) Answers may relate to the hint in any complex form.
+                                    <br>d) Participants can also look for hints of an answer anywhere on the page also. (Image, Video, Text Source code, URL, Current Page). </li>
+                                <li>Point Scheme will be as follows:
+                                    <br>a) First 20 players to clear the level will get 10 points.
+                                    <br>b) Next 30 players that are from 21 to 50 for that level will get 9 points.
+                                    <br>c) Remaining players to clear that level will get 8 points.</li>
+                                <li>The first person to clear a level has split time 0. Any other person to clear that level will have split time which is calculated as follows:
+                                    <br>a) Submit time of current user – Submit time of first person to clear that level.
+                                </li>
+                                <li>Split time explanation:
+                                <br>It shows the time difference of correct answer submission between you and the 1st participant to complete that level. For example, if your split time is +0:10:13.0000, you were 10 minutes and 13 seconds late in submitting the correct answer to your previous level as compared to the 1st participant completing that same level. If your split time is +0:0:0.0000, you were the first one to submit the correct answer to your previous level.
+                                </li>
+                                <li>Only one prize will be awarded:
+                                    <br>a) The prize will go to the first player completing all the levels irrespective of points and split time.
+                                    <br>b) If no one is able to complete all the levels and the event ends, the player with maximum level will win. If levels are same then points will be considered and if points are same then split time will be considered in deciding the winner.</li>
+                            </ol>
+      
+  </div><!-- /.modal-content-->
+
+</div><!-- /.modal-->
+                        
     
 <!-- footer-->
 <div class="footer" style="background: rgba(0, 0, 0, 0.4);">
@@ -119,7 +162,7 @@
         <a style="padding-top: 0vh;padding-bottom: 0vh" class="link link--kukuri " href="index.html" data-letters="HOME">HOME</a>
 </div>
 <div id="foot4" class="hidden-sm hidden-xs">
-    <a style="padding-top: 0vh;padding-bottom: 0vh" class="link link--kukuri" href="contact.html" data-letters="RULES">INSTRUCTIONS</a>
+    <a style="padding-top: 0vh;padding-bottom: 0vh" class="link link--kukuri" id="myBtn" data-letters="RULES">INSTRUCTIONS</a>
 
     <a style="padding-top: 0vh;padding-bottom: 0vh" class="link link--kukuri" href="sponsors.html" data-letters="SPONSORS">SPONSORS</a>
 </div>
@@ -156,6 +199,35 @@
         <script type="text/javascript" src="assets/js/functions.js"></script>
         <!-- Custom JavaScript Functions -->
         <script type="text/javascript" src="assets/js/jquery.ajaxchimp.min.js"></script>
+    
+    
+    <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
 
 </body>
 </html>
