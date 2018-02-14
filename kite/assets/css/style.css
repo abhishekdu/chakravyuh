@@ -102,14 +102,18 @@ a:focus{
 }
 .section-name{
 	font-weight:700;
+    font-size: 39px;
 	text-align:center;
 	text-transform:uppercase;
 	margin:0;
+     font-family:"Courier New", Courier, monospace;
+    color: whitesmoke;
+    
 }
 .section-name span{
 	display:inline-block;
 	position:relative;
-	padding-bottom:15px;
+	padding-bottom:2%;
 }
 .section-name span:before,
 .section-name span:after{
@@ -132,12 +136,16 @@ a:focus{
 	font-weight:300;
 	font-size:70px;
     font-family:"Courier New", Courier, monospace;
-    color: whitesmoke;
+    color: white;
 }
 .section-description{
-	font-weight:400;
+	font-weight:900;
+    font-size:18px;
 	text-align:center;
-	line-height:30px;
+	line-height:180%;
+    font-family:"Courier New", Courier, monospace;
+    color: aliceblue;
+    
 }
 .form-control{
 	padding: 6px 30px;
@@ -294,8 +302,10 @@ a:focus{
 	color: #fff;
 }
 .social-btn-box .instagram-btn:hover{
-	background:#55ACEE;
-	color: #fff;
+	/*background:#55ACEE;*/
+    /* INSTAGRAM BACKGROUND COLOR*/
+	 background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+    color: #fff;
 }
 .social-btn-box .linkedin-btn:hover{
 	background:#0077b5;
@@ -622,6 +632,7 @@ a:focus{
 	font-weight: 700;
 	margin: 0;
 	padding: 26px 10px 5px 10px;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
 }
 .team-container figcaption p{
 	font-size: 1.125em;
@@ -714,11 +725,11 @@ a:focus{
 	        transition:all .25s;
 }
 .team-container .team-member:hover figure{
-	background-color:#3498db;
+	background-color:darkseagreen;
 	color:#fff;
 }
 .team-container .team-member:hover figcaption{
-	border-color:#3498db;
+	border-color:darkseagreen;
 	color:#fff;
 }
 
