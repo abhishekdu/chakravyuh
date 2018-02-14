@@ -1,0 +1,83 @@
+/* DivTable.com */
+.divTable{
+	display: table;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	/*border: 1px solid #999999; */
+	display: table-cell;
+	padding: 3px 10px;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+.section {
+  padding: 70px 0;
+}
+.section-title {
+  color: #313131;
+margin-bottom: 10%;
+  letter-spacing: 1px;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* 
+ * 6.7 Section: Schedule
+ */
+.partner {
+  background-color: #f8f8f8;
+}
+.partner .partner-box {
+  display: block;
+  opacity: 0.3;
+  height: 150px;
+  width: 150px;
+  margin: 25px auto;
+  -webkit-transition: 0.5s all linear;
+          transition: 0.5s all linear;
+}
+.partner .partner-box:hover {
+  opacity: 1;
+}
+.partner .partner-box-1 {
+  background: url(../images/partner-1.png) no-repeat center center/contain;
+}
+.partner .partner-box-2 {
+  background: url(../images/partner-2.png) no-repeat center center/contain;
+}
+.partner .partner-box-3 {
+  background: url(../images/partner/partner-3.png) no-repeat center center/contain;
+}
+.partner .partner-box-4 {
+  background: url(../images/partner/partner-4.png) no-repeat center center/contain;
+}
+.partner .partner-box-5 {
+  background: url(../images/partner/partner-5.png) no-repeat center center/contain;
+}
+.partner .partner-box-6 {
+  background: url(../images/partner/partner-6.png) no-repeat center center/contain;
+}
+.partner .partner-box-7 {
+  background: url(../images/partner/partner-7.png) no-repeat center center/contain;
+}
+.partner .partner-box-8 {
+  background: url(../images/partner/partner-8.png) no-repeat center center/contain;
+}
