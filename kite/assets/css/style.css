@@ -57,7 +57,52 @@ body{
 	color:#fff;
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing:grayscale;
+    height: 100%;
+    margin: 0;
 	
+}
+html{
+height: 100%;
+    margin: 0;
+    
+}
+
+.imagefull {
+    /* The image used */
+    background-image: url("../images/contact.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagefullindex {
+    /* The image used */
+    background-image: url("../images/page-top.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagefullabout {
+    /* The image used */
+    background-image: url("../images/about-us-background.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 a{
@@ -85,6 +130,8 @@ a:focus{
 	width:100%;
 	background-size:cover;
 }
+
+}
 .section-style-contact{
 	background-attachment:inherit;
 	background-position:100% 0;
@@ -95,7 +142,9 @@ a:focus{
 }
 .pattern{
 	background:rgba(0,0,0,.5) url(../images/pattern.png);
-	padding-top:100px;
+    width: 100%; 
+    height: 100%; 
+   
 }
 .container{
 	overflow:hidden;
@@ -138,7 +187,7 @@ a:focus{
 	bottom:2px;
 }
 .section-title{
-    margin-top: 0.05%;
+    margin-top: 0%;
 	text-align:center;
 	text-transform:uppercase;
 	font-weight:300;
@@ -146,11 +195,20 @@ a:focus{
     font-family:"Courier New", Courier, monospace;
     color: white;
 }
-.section-description{
-	font-weight:700;
-    font-size:18px;
+.section-title-index{
+    margin-top: 0%;
 	text-align:center;
-	line-height:160%;
+	text-transform:uppercase;
+	font-weight:300;
+	font-size:60px;
+    font-family:"Allerta Stencil", Sans-serif;
+    color: white;
+}
+.section-description{
+	font-weight:400;
+    font-size:20px;
+	text-align:center;
+	line-height:140%;
     font-family:"Courier New", Courier, monospace;
     color: aliceblue;
     
@@ -364,7 +422,7 @@ a:focus{
 ------------------------------------------ */
 
 .pattern.height-resize{
-	padding-top: 40px;
+	padding-top: 2%;
 }
 .height-resize .time-count-container{
 	margin-top: 20px !important;
@@ -532,7 +590,7 @@ a:focus{
 }
 .time-count-container{
 	min-height:300px;
-	margin-top:50px;
+	margin-top:0px;
 }
 .time-box{
 	width:150px;
@@ -618,6 +676,8 @@ a:focus{
 	margin:auto;
 	position:relative;
 	overflow:hidden;
+    border: 2px solid black;
+     border-radius: 20px ;
 }
 
 
@@ -625,8 +685,8 @@ a:focus{
 	text-align:center;
 	text-transform:uppercase;
 	width:100%;
-	height:80px;
-	border:1px solid #fff;
+	height:110px;
+	border:1px solid black;
 	border-top-color:transparent;
 	margin:0;
 }
@@ -733,11 +793,11 @@ a:focus{
 	        transition:all .25s;
 }
 .team-container .team-member:hover figure{
-	background-color:darkseagreen;
+	background-color:goldenrod;
 	color:#fff;
 }
 .team-container .team-member:hover figcaption{
-	border-color:darkseagreen;
+	border-color:goldenrod;
 	color:#fff;
 }
 
@@ -821,16 +881,20 @@ form.news-letter .btn:hover{
 
 .contact-section {
   font-family:"Trebuchet MS", Helvetica, sans-serif;
-    color: whitesmoke;
+  color: whitesmoke;
   background-image: url("../images/contact-bg.jpg");
   background-position:60% 0;
   background-size:contain;
   background-repeat:no-repeat;  
   position: relative;
+     overflow: hidden;
+    
 }
 
 .ear-piece {
   position: absolute;
+    
+     overflow: hidden;
   left: 0;
   top: 0;
 }
@@ -842,31 +906,30 @@ form.news-letter .btn:hover{
 #contact h3 {
   text-transform:inherit;
   color: #373737; 
-    font-family:"Trebuchet MS", Helvetica, sans-serif;
-    color: navajowhite;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+  color: navajowhite;
 }
 
 #contact-section h3 {  
-  margin-bottom: 5%;
-      font-family:"Trebuchet MS", Helvetica, sans-serif;
-    color: navajowhite;
+   margin-bottom: 5%;
+   font-family:"Trebuchet MS", Helvetica, sans-serif;
+   color: navajowhite;
 }
 
 #contact address {
   font-size: 18px; 
   color: #373737; 
-    font-family:"Trebuchet MS", Helvetica, sans-serif;
-    color: whitesmoke;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+  color: whitesmoke;
+
 }
 
 .contact-text {
   margin-bottom: 15%;
-    margin-right: 60%;
-    
+  margin-right: 60%;  
   display: block;
-    font-family:"Trebuchet MS", Helvetica, sans-serif;
-    color: whitesmoke;
-
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+  color: whitesmoke;
 }
 
 
@@ -903,10 +966,9 @@ form.news-letter .btn:hover{
 }
 
 #contact-section .btn-primary:hover {
-  background-color: dimgrey;
+  background-color: dimgray;
   color: #fff
 }
-
 
 
 /* 7 - Contact Section
